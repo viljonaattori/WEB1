@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9; /* Taustaväri */
+  background-color: #6d6d83; /* Taustaväri */
   display: flex;
   flex-direction: column;
   color: #f4f4f9; /* Tekstin väri */
@@ -59,7 +59,6 @@ footer {
 }
 
 /* YHTEYDENOTTOLOMAKE TYYLIT -----------------------*/
-/* YHTEYDENOTTOLOMAKE TYYLIT -----------------------*/
 #otayhteyttaForm {
   background-color: #3c5064;
   padding: 20px;
@@ -103,4 +102,43 @@ footer {
 
 #otayhteyttaForm button:hover {
   background-color: #767976;
+}
+
+/* TIETOA SIVU -----------------------*/
+.kaikkikurssit {
+  text-align: left; /* Kohdistaa sisällön vasemmalle */
+  margin-left: 0; /* Poistaa ylimääräiset marginaalit vasemmalta */
+  text-decoration: underline;
+  padding: 0; /* Poistaa ylimääräiset sisennykset */
+}
+
+.kaikkikurssit li {
+  margin-bottom: 10px; /* Lisää hieman tilaa listan kohtien väliin */
+}
+
+/* Oikeanpuoleinen lista */
+.meneillaanolevat h2 {
+  text-align: left; /* Varmistaa, että otsikko on vasemmalla */
+  margin-top: -45px; /* Lisää tilaa otsikon ja listan väliin */
+  margin-right: -280px;
+  text-decoration: underline;
+}
+
+.meneillaanolevat {
+  display: flex;
+  justify-content: flex-end; /* Kohdistaa sisällön oikealle */
+  text-align: left; /* Varmistaa, että pistemerkki on vasemmalla */
+  padding: 0; /* Poistaa ylimääräiset sisennykset */
+  text-decoration: underline;
+  margin-top: -220px; /* Siirtää lista hieman ylös */
+}
+
+.meneillaanolevat ul {
+  list-style-position: outside; /* Pistemerkki vasemmalle */
+  padding-right: 0; /* Poistaa oikean puoleisen sisennyksen */
+  margin: 0;
+}
+
+.meneillaanolevat li {
+  margin-bottom: 10px; /* Lisää hieman tilaa listan kohtien väliin */
 }
