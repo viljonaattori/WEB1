@@ -57,3 +57,50 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+
+/* YHTEYDENOTTOLOMAKE TYYLIT -----------------------*/
+/* YHTEYDENOTTOLOMAKE TYYLIT -----------------------*/
+#otayhteyttaForm {
+  background-color: #3c5064;
+  padding: 20px;
+  border-radius: 10px;
+  height: auto;
+  font-size: 16px;
+  width: 100%; /* Estetään kenttien menevän yli */
+  max-width: 500px; /* Asetetaan lomakkeen maksimileveys */
+  margin: 0 auto; /* Keskittää lomakkeen */
+}
+
+#otayhteyttaForm label {
+  display: block; /* Asettaa labelin elementin blokiksi, jotta se menee omalle riville */
+  margin-bottom: 8px; /* Lisää tilaa labelin ja kentän väliin */
+}
+
+#otayhteyttaForm input,
+#otayhteyttaForm textarea {
+  width: 100%; /* Kenttä vie koko leveysosan */
+  padding: 10px;
+  margin-bottom: 15px; /* Lisää tilaa kenttien väliin */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Varmistaa, että padding ei vaikuta leveyteen */
+}
+
+#otayhteyttaForm textarea {
+  height: 120px; /* Asetetaan korkeutta tekstialueelle */
+}
+
+#otayhteyttaForm button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2f312f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Button vie koko leveysosan */
+  margin-top: 10px; /* Lisää tilaa napin yläpuolelle */
+}
+
+#otayhteyttaForm button:hover {
+  background-color: #767976;
+}
